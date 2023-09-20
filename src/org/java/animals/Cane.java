@@ -8,9 +8,4 @@ public class Cane extends Animale implements INuotante {
 	public void mangia() {
 		System.out.println("Il cane mangia carne, verdura, frutta, pesce");
 	}
-//
-//	@Override
-//	public void nuota() {
-//		System.out.println("Sto nuotando!!!");
-//	}
 }
