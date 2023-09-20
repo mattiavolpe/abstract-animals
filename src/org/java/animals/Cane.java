@@ -1,6 +1,6 @@
 package org.java.animals;
 
-public class Cane extends Animale {
+public class Cane extends Animale implements INuotante {
 	public void verso() {
 		System.out.println("Il cane abbaia");
 	}
@@ -8,4 +8,9 @@ public class Cane extends Animale {
 	public void mangia() {
 		System.out.println("Il cane mangia carne, verdura, frutta, pesce");
 	}
+//
+//	@Override
+//	public void nuota() {
+//		System.out.println("Sto nuotando!!!");
+//	}
 }

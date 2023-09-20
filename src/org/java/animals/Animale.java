@@ -7,4 +7,12 @@ public abstract class Animale {
 	
 	public abstract void verso();
 	public abstract void mangia();
+	
+	public void vola() {
+		System.out.println("Sto volando!!!");
+	}
+	
+	public void nuota() {
+		System.out.println("Sto nuotando!!!");
+	}
 }
